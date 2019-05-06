@@ -3,17 +3,28 @@ package model
 
 
 type Ticker struct {
-	Open    float64	`json:"open"`
-	Close   float64	`json:"close"`
-	High    float64	`json:"high"`
-	Low     float64	`json:"low"`
-	Vol     float64	`json:"vol"`
-	Time    int64   `json:"time"`
-	FmtTime string	`json:"fmtTime"`
-	Rsi		float64 `json:"rsi"`
-	Macd	float64 `json:"macd"`
-	Dif	    float64 `json:"dif"`
-	Dea	    float64 `json:"dea"`
+	Open      float64	`json:"open"`
+	Close     float64	`json:"close"`
+	High      float64	`json:"high"`
+	Low       float64	`json:"low"`
+	Vol       float64	`json:"vol"`
+	Time      int64     `json:"time"`
+	FmtTime   string 	`json:"fmtTime"`
+	Rsi		  float64   `json:"rsi"`
+	Macd	  float64   `json:"macd"`
+	Dif	      float64   `json:"dif"`
+	Dea	      float64   `json:"dea"`
+	MA5Price  float64   `json:"ma5Price"`
+	MA10Price float64   `json:"ma10Price"`
+	MA20Price float64   `json:"ma20Price"`
+	MA30Price float64   `json:"ma30Price"`
+	MA60Price float64   `json:"ma60Price"`
+	Up        float64   `json:"up"`
+	Mb        float64   `json:"mb"`
+	Dn        float64   `json:"dn"`
+	K         float64   `json:"k"`
+	D         float64   `json:"d"`
+	J         float64   `json:"j"`
 }
 
 

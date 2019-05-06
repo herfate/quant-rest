@@ -46,6 +46,7 @@ const (
 
 // my definition
 const (
+	StrategyConfigMartingaleGrid             	= "martingale_grid"
 	StrategyConfigMartingaleGridSleepTime   	= "martingale_grid_sleep_time"
 	StrategyConfigMartingaleGridInterval  		= "martingale_grid_interval"
 	StrategyConfigMartingaleGridOpenOrClose 	= "martingale_grid_open_or_close"
